@@ -24,6 +24,10 @@ PRODUCT_PACKAGES += \
     vendor.pa.camera.motor@1.0 \
     vendor.pa.camera.motor@1.0-service.oneplus_oneplus7pro
 
+# Display
+PRODUCT_PACKAGES += \
+	init.display.oneplus7pro.rc
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
