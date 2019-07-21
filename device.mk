@@ -19,6 +19,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/oneplus/oneplus7pro/oneplus7pro-vendor.mk)
 
+# Camera
+PRODUCT_PACKAGES += \
+    vendor.pa.camera.motor@1.0 \
+    vendor.pa.camera.motor@1.0-service.oneplus_oneplus7pro
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
