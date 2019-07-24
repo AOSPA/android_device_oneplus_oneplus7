@@ -22,5 +22,10 @@ DEVICE_PATH := device/oneplus/oneplus7pro
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
 
+# Fingerprint
+SOONG_CONFIG_oneplusMsmnileFodPlugin_posX = 595
+SOONG_CONFIG_oneplusMsmnileFodPlugin_posY = 2603
+SOONG_CONFIG_oneplusMsmnileFodPlugin_size = 250
+
 # inherit from the proprietary version
 -include vendor/oneplus/oneplus7pro/BoardConfigVendor.mk
