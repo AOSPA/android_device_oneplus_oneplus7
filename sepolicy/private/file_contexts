@@ -1,0 +1,3 @@
+/system/bin/hw/vendor\.pa\.camera\.motor@1.0-service\.oneplus_oneplus7pro               u:object_r:hal_camera_motor_oneplus7pro_exec:s0
+
+/sys/devices/platform/vendor/vendor\:motor_pl u:object_r:sysfs_oem:s0

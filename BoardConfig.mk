@@ -27,5 +27,8 @@ SOONG_CONFIG_oneplusMsmnileFodPlugin_posX = 595
 SOONG_CONFIG_oneplusMsmnileFodPlugin_posY = 2603
 SOONG_CONFIG_oneplusMsmnileFodPlugin_size = 250
 
+# Sepolicy
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
+
 # inherit from the proprietary version
 -include vendor/oneplus/oneplus7pro/BoardConfigVendor.mk
