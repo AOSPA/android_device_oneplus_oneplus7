@@ -20,7 +20,4 @@
     <integer name="config_maxVisibleNotificationIcons">7</integer>
     <integer name="config_maxVisibleNotificationIconsWhenDark">8</integer>
 
-    <!-- Allow devices override audio panel location to the left side -->
-    <bool name="config_audioPanelOnLeftSide">true</bool>
-
 </resources>
