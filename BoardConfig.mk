@@ -27,6 +27,10 @@ SOONG_CONFIG_oneplusMsmnileFodPlugin_posX = 595
 SOONG_CONFIG_oneplusMsmnileFodPlugin_posY = 2603
 SOONG_CONFIG_oneplusMsmnileFodPlugin_size = 250
 
+# Sensors
+SOONG_CONFIG_ONEPLUS_MSMNILE_SENSORS_ALS_POS_X := 1000
+SOONG_CONFIG_ONEPLUS_MSMNILE_SENSORS_ALS_POS_Y := 260
+
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
