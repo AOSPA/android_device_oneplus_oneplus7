@@ -19,6 +19,9 @@
 
 DEVICE_PATH := device/oneplus/oneplus7pro
 
+# Recovery
+TARGET_PREBUILT_RECOVERY_RAMDISK_CPIO := $(DEVICE_PATH)/ramdisk-recovery.cpio
+
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
 
