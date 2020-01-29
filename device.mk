@@ -43,5 +43,9 @@ endif
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# tri-state key
+PRODUCT_PACKAGES += \
+    tri-state-key-calibrate_daemon
+
 # Inherit from sm8150-common
 $(call inherit-product, device/oneplus/sm8150-common/sm8150.mk)
