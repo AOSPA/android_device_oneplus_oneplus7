@@ -1,8 +1,0 @@
-type hal_camera_motor_oneplus7pro, coredomain, domain;
-hal_server_domain(hal_camera_motor_oneplus7pro, hal_pa_camera_motor)
-
-type hal_camera_motor_oneplus7pro_exec, exec_type, file_type, system_file_type;
-init_daemon_domain(hal_camera_motor_oneplus7pro)
-
-allow hal_camera_motor_oneplus7pro sysfs_oem:file rw_file_perms;
-allow hal_camera_motor_oneplus7pro sysfs_oem:dir { search };
