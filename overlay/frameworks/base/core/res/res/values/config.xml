@@ -359,4 +359,22 @@
          @string/config_mainBuiltInDisplayCutout
     </string>
 
+    <!-- Vibration Patterns-->
+    <!-- Long Press Vibration -->
+    <integer-array name="config_longPressVibePattern">
+        <item>0</item>
+        <item>10</item>
+    </integer-array>
+
+    <!-- Keyboard Tap Vibration -->
+    <integer-array name="config_keyboardTapVibePattern">
+        <item>10</item>
+    </integer-array>
+
+    <!-- Vibrator pattern for feedback about touching a virtual key -->
+    <integer-array name="config_virtualKeyVibePattern">
+        <item>0</item>
+        <item>10</item>
+    </integer-array>
+
 </resources>
