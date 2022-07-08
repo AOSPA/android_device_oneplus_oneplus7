@@ -6,7 +6,7 @@
 -include device/oneplus/sm8150-common/BoardConfigCommon.mk
 
 BOARD_VENDOR := oneplus
-DEVICE_PATH := device/oneplus/guacamoleb
+DEVICE_PATH := device/oneplus/oneplus7
 
 # Display
 TARGET_SCREEN_DENSITY := 420

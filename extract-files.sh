@@ -13,7 +13,7 @@ fi
 
 set -e
 
-export DEVICE=guacamoleb
+export DEVICE=oneplus7
 export DEVICE_COMMON=sm8150-common
 export VENDOR=oneplus
 
