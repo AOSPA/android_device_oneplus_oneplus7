@@ -11,6 +11,7 @@ $(call inherit-product, vendor/oneplus/oneplus7/oneplus7-vendor.mk)
 
 # Overlays
 PRODUCT_PACKAGES += \
+    AOSPAOnePlus7Frameworks \
     AOSPAOnePlus7SystemUI \
     OnePlus7Frameworks \
     OnePlus7SettingsProvider \
